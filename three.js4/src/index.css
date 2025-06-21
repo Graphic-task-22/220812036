@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #87CEEB;
+    font-family: Arial, sans-serif;
+}
+canvas {
+    display: block;
+}
+
+/* 控制面板样式 */
+.controls-panel {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 280px;
+    background: rgba(30, 30, 30, 0.85);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    max-height: 90vh;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+/* 其余CSS样式保持不变 */
